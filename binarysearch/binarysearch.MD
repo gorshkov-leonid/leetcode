@@ -62,19 +62,19 @@ function searchMatrix(matrix,target) {
     const N = matrix.length
     const M = matrix[0].length
     const B =  N * M
-    let a = 0, b = N * M
+    let a = 0, b = B - 1
     let i, j, c, v
-    while(a > -1 && b <= B && a <= b){
+    while(a >= 0 && b < B && a <= b){
        c = (a + b) >>> 1
        let i = Math.trunc(c / M)
        let j = c % M
        v = matrix[i][j]
        if(v == target){
            return true
-       } else if(v < target){
-           a = c - 1
+       } else if(target > v){
+           a = c + 1
        } else {
-           b = c + 1
+           b = c - 1
        }
     }
     return false
