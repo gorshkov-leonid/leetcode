@@ -33,3 +33,25 @@ function search(nums: number[], target: number): number {
     return -1
 };
 ```
+
+https://leetcode.com/problems/guess-number-higher-or-lower/
+```js
+var guessNumber = function(n) {
+    let a = 1
+    let b = n
+    let pick, res
+    while(a <= b){
+        pick = (a+b) >>> 1
+        res = guess(pick)
+        if(res === 0) {
+            return pick
+        } else if(res == 1){
+            a = pick + 1
+        } else {
+            b = pick - 1
+        }
+    }
+    return -1
+};
+
+```
