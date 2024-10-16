@@ -18,16 +18,17 @@ function search(nums: number[], target: number): number {
 };
 
 function search(nums: number[], target: number): number {
-    let a = 0, b = nums.length - 1, c, d
-    while(a > -1 && b < nums.length && a <= b){
-       c = (a+b) >>> 1
-       d = nums[c]
+    const L = nums.length
+    let a = 0, b = L - 1, m, d
+    while(a > -1 && b < L && a <= b){
+       m = (a+b) >>> 1
+       d = nums[m]
        if(d == target){
-           return c
+           return m
        } else if(d < target){
-           a = c + 1
+           a = m + 1
        } else {
-           b = c - 1
+           b = m - 1
        }
     }
     return -1
