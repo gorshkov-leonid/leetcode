@@ -4,7 +4,7 @@ function search(nums: number[], target: number): number {
     let a = 0
     let b = nums.length - 1
     let c = 0
-    while(a > -1 && b < nums.length && a < b){
+    while(a > -1 && b < nums.length && a <= b){
        c = Math.trunc((a+b) / 2)
        if(nums[c] == target){
            return c
