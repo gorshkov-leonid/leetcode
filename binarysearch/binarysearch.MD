@@ -18,9 +18,7 @@ function search(nums: number[], target: number): number {
 };
 
 function search(nums: number[], target: number): number {
-    let a = 0
-    let b = nums.length - 1
-    let c = 0
+    let a = 0, b = nums.length - 1, c
     while(a > -1 && b < nums.length && a <= b){
        c = (a+b) >>> 1
        if(nums[c] == target){
