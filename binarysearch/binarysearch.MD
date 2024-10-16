@@ -1,5 +1,5 @@
 https://leetcode.com/problems/binary-search/
-```
+```ts
 function search(nums: number[], target: number): number {
     let a = 0
     let b = nums.length - 1
