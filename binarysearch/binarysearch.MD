@@ -67,6 +67,7 @@ function searchMatrix(matrix,target) {
 
 https://leetcode.com/problems/search-in-rotated-sorted-array/
 ```js
+wrong for `[1]` and `1`
 var search = function(nums, target) {
     let a = 0
     let b = nums.length - 1
