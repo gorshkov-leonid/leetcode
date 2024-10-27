@@ -13,8 +13,8 @@ leetcode.com
 4. Cистема Яндекс.Код, которую используют при решении задач на ноутбуке: https://code.yandex-team.ru/
 
 5. Видео о том, как решать алгоритмические задачки :
-https://www.youtube.com/watch?v=0yxjWwoZtLw
-https://www.youtube.com/watch?v=zU-LndSG5RE
+* https://www.youtube.com/watch?v=0yxjWwoZtLw
+* https://www.youtube.com/watch?v=zU-LndSG5RE
 
 6. Стоит попрактиковаться в алгоритмах и порешать задачки на leetcode/hackerrank/GeeksforGeeks.Задачки могут повториться на собеседовании
 
