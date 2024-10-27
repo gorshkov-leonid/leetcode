@@ -81,7 +81,7 @@ var search = function(nums, target) {
                a = c + 1
             }
         } else {
-            if(nums[c] <= target && target <= nums[nums.length -1]){
+            if(nums[c] < target && target <= nums[nums.length -1]){
                a = c + 1
             } else {
                b = c 
