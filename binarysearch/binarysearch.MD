@@ -67,11 +67,11 @@ function searchMatrix(matrix,target) {
 
 https://leetcode.com/problems/search-in-rotated-sorted-array/
 ```js
-wrong for `[1]` and `1`
+wrong for `[1,3]` and `3`
 var search = function(nums, target) {
     let a = 0
     let b = nums.length - 1
-    let c
+    let c = 0
     while(a < b){
         c = (a + b) >>> 1
         if(nums[0] <= nums[c]) {
