@@ -1,6 +1,6 @@
 https://leetcode.com/problems/binary-search/
 ```ts
-function search(nums, target): number {
+function search(nums, target) {
     let a = 0, b = nums.length - 1, c, d
     while(a > -1 && b < nums.length && a <= b){
        c = (a+b) >>> 1
