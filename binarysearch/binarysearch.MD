@@ -114,7 +114,6 @@ var findMin = function(nums) {
 ```
 
 https://leetcode.com/problems/search-in-rotated-sorted-array-ii/submissions/1435180321/
-// wrong for `[1,0,1,1,1]` and `0`
 ```js
 var search = function(nums, target) {
     let a = 0
