@@ -119,41 +119,25 @@ https://leetcode.com/problems/search-in-rotated-sorted-array-ii/submissions/1435
 var search = function(nums, target) {
     let a = 0
     let b = nums.length - 1
-    let c
-    if(nums[a] === target){
-        return true
-    }
-    if(nums[b] === target){
-        return true
-    }
     while(a < b) {
-        c = (a + b) >>> 1 
-        if(nums[0] < nums[c]){
-            if(nums[0] <= target < nums[c]) {
+        let c = (a + b) >>> 1 
+        if(nums[c] > nums[b]){
+            if(nums[a] <= target && target <= nums[c]) {
                 b = c
-                if(nums[b] === target){
-                    return true
-                }
             } else {
                 a = c + 1
-                if(nums[a] === target){
-                    return true
-                }
+
             }
-        } else {
-            if(nums[c] <= target < nums[nums.length - 1]) {
+        } else if (nums[c] < nums[b]){
+            if(nums[c] < target && target <= nums[b]) {
                 a = c + 1
-                if(nums[a] === target){
-                    return true
-                }                
             } else {
                 b = c
-                if(nums[b] === target){
-                    return true
-                }
             }
+        }  else {
+            b--
         }
     }
-    return false
+    return nums[a] == target
 };
 ```
