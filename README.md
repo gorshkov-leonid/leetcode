@@ -26,12 +26,12 @@ leetcode.com
     * https://leetcode.com/problems/reverse-linked-list/
  
 * binary search:
-    * https://leetcode.com/problems/binary-search/
-    * https://leetcode.com/problems/guess-number-higher-or-lower/
-    * https://leetcode.com/problems/search-a-2d-matrix/
-    * https://leetcode.com/problems/search-in-rotated-sorted-array/
-    * https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
-    * https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
+    * https://leetcode.com/problems/binary-search/ :white_check_mark:
+    * https://leetcode.com/problems/guess-number-higher-or-lower/ :white_check_mark:
+    * https://leetcode.com/problems/search-a-2d-matrix/ :white_check_mark:
+    * https://leetcode.com/problems/search-in-rotated-sorted-array/ :white_check_mark:
+    * https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ :white_check_mark:
+    * https://leetcode.com/problems/search-in-rotated-sorted-array-ii/ :white_check_mark::white_check_mark:
  
 * hash table:
     * https://leetcode.com/problems/single-number/ - решить за O(1) по памяти
