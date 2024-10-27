@@ -67,13 +67,13 @@ function searchMatrix(matrix,target) {
 
 https://leetcode.com/problems/search-in-rotated-sorted-array/
 ```js
-// wrong for `[1,3]` and `3`
+// `nums[c] < target` is important, or else you can get wrong case for `[1,3]` and `3`
 var search = function(nums, target) {
+    const n = nums.length
     let a = 0
-    let b = nums.length - 1
-    let c = 0
+    let b = n - 1
     while(a < b){
-        c = (a + b) >>> 1
+        let c = (a + b) >>> 1
         if(nums[0] <= nums[c]) {
             if(nums[0] <= target && target <= nums[c]){
                b = c 
@@ -81,14 +81,15 @@ var search = function(nums, target) {
                a = c + 1
             }
         } else {
-            if(nums[c] < target && target <= nums[nums.length -1]){
+            if(nums[c] < target && target <= nums[n -1]){
                a = c + 1
             } else {
                b = c 
             }
         }
     }
-    return nums[c] == target ? c : -1
+    return nums[a] == target ? a : ( nums[b] == target ? b : -1)
+};
 ```
 
 https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
