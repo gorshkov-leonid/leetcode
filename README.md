@@ -1,7 +1,7 @@
 # leetcode
 leetcode.com
 
-```
+
 Отправляю полезные ссылки для подготовки к алгоритмам:
 
 1. Система Яндекс.Контест, где стоит потренироваться решать задачки, т.к они схожи с теми, которые дают на собеседовании: https://contest.yandex.ru/contest/8458/enter/
@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=zU-LndSG5RE
 
 это все про алгоритмы
 linked lists:
-    [https://leetcode.com/problems/merge-k-sorted-lists/]
+    https://leetcode.com/problems/merge-k-sorted-lists/
     https://leetcode.com/problems/linked-list-cycle/
     https://leetcode.com/problems/add-two-numbers/
     https://leetcode.com/problems/reverse-linked-list/
@@ -75,4 +75,4 @@ greedy problems:
     https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
     https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
     https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
-```
+
