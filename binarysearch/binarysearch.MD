@@ -64,3 +64,28 @@ function searchMatrix(matrix,target) {
 };
 
 ```
+
+https://leetcode.com/problems/search-in-rotated-sorted-array/
+```js
+var search = function(nums, target) {
+    let a = 0
+    let b = nums.length - 1
+    let c
+    while(a < b){
+        c = (a + b) >>> 1
+        if(nums[0] <= nums[c]) {
+            if(nums[0] <= target && target <= nums[c]){
+               b = c 
+            } else {
+               a = c + 1
+            }
+        } else {
+            if(nums[c] <= target && target <= nums[nums.length -1]){
+               a = c + 1
+            } else {
+               b = c 
+            }
+        }
+    }
+    return nums[c] == target ? c : -1
+```
