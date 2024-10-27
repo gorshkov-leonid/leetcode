@@ -93,7 +93,6 @@ var search = function(nums, target) {
 ```
 
 https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
-// wrong for `[2,1]`
 ```js
 var findMin = function(nums) {
     let a = 0;
