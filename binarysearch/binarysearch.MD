@@ -104,7 +104,7 @@ var findMin = function(nums) {
     }
     while(a < b){
         c = (a + b) >>> 1
-        if(nums[0] < nums[c]){
+        if(nums[b] < nums[c]){
             a = c + 1
         } else {
             b = c
