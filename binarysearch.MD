@@ -24,7 +24,7 @@ var guessNumber = function(n) {
     let b = n
     let pick, res
     while(a <= b){
-        pick = (a+b) >>> 1
+        pick = (a + b) >>> 1
         res = guess(pick)
         if(res === 0) {
             return pick
