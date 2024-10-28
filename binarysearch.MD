@@ -129,9 +129,6 @@ var findMin = function(nums) {
     let a = 0;
     let b = nums.length - 1
     let c
-    if(nums[0] < nums[nums.length - 1]){
-        return nums[0]
-    }
     while(a < b){
         c = (a + b) >>> 1
         if(nums[b] < nums[c]){
