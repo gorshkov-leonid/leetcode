@@ -149,47 +149,38 @@ https://github.com/doocs/leetcode/blob/main/solution/0200-0299/0287.Find%20the%2
 
 https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 ```js
-//v1
-var searchRange = function(nums, target) {
-    var i = 0
+var searchRange = function (nums, target) {
+
     let a = 0;
     let b = nums.length - 1
-    let m 
-    while(a <= b){
-         m = (a + b) >>> 1
-         if(target < nums[m]){
-            b = m - 1
-         } else if(target == nums[m]){
-            b = m - 1
-         } else {
+    let res = [-1, -1]
+    while (a <= b) {
+        let m = (a + b) >>> 1
+        if (target > nums[m]) {
             a = m + 1
-         }
-         i++
-         if(i > 500 ) {
-            throw "Fail " + a + " " + b
-         }
+        }
+        else if (target < nums[m]) {
+            b = m - 1
+        } else {
+            res[0] = m
+            b = m - 1
+        }
     }
-    console.log(m)
-
     a = 0;
     b = nums.length - 1
-    while(a < b){
-         m = (a + b) >>> 1
-         if(target > nums[m]){
+    while (a < b) {
+        let m = (a + b) >>> 1
+        if (target > nums[m]) {
             a = m + 1
-         }  
-         else if(target == nums[m]) {
-            a = m + 1
-         }
-         else {
+        }
+        else if (target < nums[m]) {
             b = m - 1
-         }
-         i++
-         if(i > 500 ) {
-            throw "Fail " + a + " " + b
-         }
+        } else {
+            res[1] = m
+            a = m + 1
+        }
     }
-console.log(m)
+    return res
 
 };
 ```
