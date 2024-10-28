@@ -90,6 +90,37 @@ var search = function(nums, target) {
     }
     return nums[a] == target ? a : ( nums[b] == target ? b : -1)
 };
+
+//easier:
+
+var search = function(nums, target) {
+    const n = nums.length
+    let a = 0
+    let b = n - 1
+    let res = -1
+    while(a <= b){
+        let c = (a + b) >>> 1
+        if(target == nums[c]){
+            res = c
+            break
+        }
+        if(nums[0] <= nums[c]) {
+            if(nums[0] <= target && target < nums[c]){
+               b = c - 1
+            } else {
+               a = c + 1
+            }
+        } else {
+            if(nums[c] < target && target <= nums[n -1]){
+               a = c + 1
+            } else {
+               b = c - 1
+            }
+        }
+    }
+    return res
+};
+
 ```
 
 https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
