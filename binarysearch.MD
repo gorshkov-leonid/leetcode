@@ -47,7 +47,7 @@ function searchMatrix(matrix,target) {
     const B =  N * M
     let a = 0, b = B - 1
     let i, j, c, v
-    while(a >= 0 && b < B && a <= b){
+    while(a <= b){
        c = (a + b) >>> 1
        let i = Math.trunc(c / M)
        let j = c % M
