@@ -146,3 +146,50 @@ https://leetcode.com/problems/find-the-duplicate-number/
 //сложно
 https://github.com/doocs/leetcode/blob/main/solution/0200-0299/0287.Find%20the%20Duplicate%20Number/README_EN.md
 ```
+
+https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+```js
+//v1
+var searchRange = function(nums, target) {
+    var i = 0
+    let a = 0;
+    let b = nums.length - 1
+    let m 
+    while(a <= b){
+         m = (a + b) >>> 1
+         if(target < nums[m]){
+            b = m - 1
+         } else if(target == nums[m]){
+            b = m - 1
+         } else {
+            a = m + 1
+         }
+         i++
+         if(i > 500 ) {
+            throw "Fail " + a + " " + b
+         }
+    }
+    console.log(m)
+
+    a = 0;
+    b = nums.length - 1
+    while(a < b){
+         m = (a + b) >>> 1
+         if(target > nums[m]){
+            a = m + 1
+         }  
+         else if(target == nums[m]) {
+            a = m + 1
+         }
+         else {
+            b = m - 1
+         }
+         i++
+         if(i > 500 ) {
+            throw "Fail " + a + " " + b
+         }
+    }
+console.log(m)
+
+};
+```
