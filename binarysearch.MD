@@ -196,7 +196,7 @@ var searchRange = function (nums, target) {
     }
     a = 0;
     b = nums.length - 1
-    while (a < b) {
+    while (a <= b) {
         let m = (a + b) >>> 1
         if (target > nums[m]) {
             a = m + 1
