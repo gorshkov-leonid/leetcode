@@ -140,3 +140,9 @@ var search = function(nums, target) {
     return nums[a] == target
 };
 ```
+
+https://leetcode.com/problems/find-the-duplicate-number/
+```
+//сложно
+https://github.com/doocs/leetcode/blob/main/solution/0200-0299/0287.Find%20the%20Duplicate%20Number/README_EN.md
+```
