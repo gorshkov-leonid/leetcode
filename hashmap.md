@@ -11,15 +11,12 @@ https://leetcode.com/problems/two-sum/description/
 var twoSum = function(nums, target) {
     const map = {}
     for(let i=0; i < nums.length; i++){
-        const v = nums[i]
-        map[v] = i
-    }
-    for(let i=0; i < nums.length; i++){
-        const v = target - nums[i]
-        const j = map[v]
-        if(j != i && Number.isFinite(map[v])){
-            return [i, map[v]]
+        const v1 = nums[i]
+        const v2 = target - nums[i]
+        if(Number.isFinite(map[v2])){
+            return [i, map[v2]]
         }
+        map[v1] = i
     }
     return []
 };
