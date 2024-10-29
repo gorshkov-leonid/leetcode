@@ -1,4 +1,4 @@
-https://leetcode.com/problems/single-number/submissions/1437050884/
+https://leetcode.com/problems/single-number/description/
 
 ```js
 var singleNumber = function(nums) {
