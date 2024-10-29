@@ -39,7 +39,7 @@ leetcode.com
     * https://leetcode.com/problems/4sum/ :white_check_mark: 
     * https://leetcode.com/problems/group-anagrams/ :white_check_mark: 
     * https://leetcode.com/problems/valid-anagram/ :white_check_mark: 
-    * https://leetcode.com/problems/find-all-anagrams-in-a-string/
+    * https://leetcode.com/problems/find-all-anagrams-in-a-string/ :white_check_mark: 
 
 * queue/stack:
     * https://leetcode.com/problems/valid-parentheses/
