@@ -65,3 +65,19 @@ const fourSum = function (nums, target) {
     return kSum(0, target, 4);
 };
 ```
+
+https://leetcode.com/problems/group-anagrams/
+```js
+var groupAnagrams = function(strs) {
+    const map = new Map()
+    for(let str of strs){
+        const sorted = str.split('').sort().join('')
+        let words = map.get(sorted)
+        if(!words){
+           map.set(sorted, words = [])
+        }
+        words.push(str)
+    }
+    return Array.from(map.values())
+};
+```
