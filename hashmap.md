@@ -117,3 +117,45 @@ var isAnagram = function (s, t) {
     return cnt.every(x => x === 0);
 };
 ```
+
+https://leetcode.com/problems/find-all-anagrams-in-a-string/
+```js
+ function index(str, i){
+     return str.charCodeAt(i) - 97 //'a'.charCodeAt(0)
+ }
+
+function compareArrs(a, b){
+     for(let i = 0; i < a.length; i++){
+        if(a[i] != b[i]){
+            return false
+        }
+     }
+     return true
+}
+
+var findAnagrams = function(s, p) {
+    if(s.length < p.length){
+        return []
+    }
+    const res = []
+    const alph2 = new Array(26).fill(0)
+    for(let i = 0; i < p.length; i++){
+       alph2[index(p, i)] += 1
+    }
+    const alph1 = new Array(26).fill(0)
+    for(let i = 0; i < p.length - 1; i++){
+       alph1[index(s, i)] += 1
+    }
+   
+
+    for(let i = p.length - 1; i < s.length; i++){
+        alph1[index(s, i)] += 1
+        console.log(`!!! "${alph1.toString()}" "${alph2.toString()}"`)
+        if(compareArrs(alph1, alph2)){ // alph1.toString() === alph2.toString()
+            res.push(i - (p.length - 1))
+        }
+        alph1[index(s, i - (p.length - 1))] -= 1
+    }
+    return res
+};
+```
