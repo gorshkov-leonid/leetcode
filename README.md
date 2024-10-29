@@ -36,7 +36,7 @@ leetcode.com
 * hash table:
     * https://leetcode.com/problems/single-number/ - :white_check_mark: решить за O(1) по памяти
     * https://leetcode.com/problems/two-sum/ :white_check_mark: 
-    * https://leetcode.com/problems/4sum/
+    * https://leetcode.com/problems/4sum/ :white_check_mark: 
     * https://leetcode.com/problems/group-anagrams/
     * https://leetcode.com/problems/valid-anagram/
     * https://leetcode.com/problems/find-all-anagrams-in-a-string/
