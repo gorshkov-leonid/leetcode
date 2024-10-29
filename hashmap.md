@@ -109,9 +109,10 @@ var isAnagram = function (s, t) {
         return false;
     }
     const cnt = new Array(26).fill(0);
+    const startCode = 'a'.charCodeAt(0)
     for (let i = 0; i < s.length; ++i) {
-        ++cnt[s.charCodeAt(i) - 'a'.charCodeAt(0)];
-        --cnt[t.charCodeAt(i) - 'a'.charCodeAt(0)];
+        cnt[s.charCodeAt(i) - startCode]+=1;
+        cnt[t.charCodeAt(i) - startCode]-=1;
     }
     return cnt.every(x => x === 0);
 };
