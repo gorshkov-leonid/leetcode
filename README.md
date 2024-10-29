@@ -34,7 +34,7 @@ leetcode.com
     * https://leetcode.com/problems/search-in-rotated-sorted-array-ii/ :white_check_mark::white_check_mark:
  
 * hash table:
-    * https://leetcode.com/problems/single-number/ - решить за O(1) по памяти
+    * https://leetcode.com/problems/single-number/ - :white_check_mark: решить за O(1) по памяти
     * https://leetcode.com/problems/two-sum/
     * https://leetcode.com/problems/4sum/
     * https://leetcode.com/problems/group-anagrams/
