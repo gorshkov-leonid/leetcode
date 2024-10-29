@@ -81,3 +81,26 @@ var groupAnagrams = function(strs) {
     return Array.from(map.values())
 };
 ```
+
+https://leetcode.com/problems/valid-anagram/
+```js
+var isAnagram = function(s, t) {
+    if(s.length !== t.length){
+        return false
+    }
+    const map = new Map()
+    for(let i = 0; i < s.length; i++){
+        const c = s.charCodeAt(i)
+        map.set(c, (map.get(c) ?? 0) + 1)
+    }
+    for(let i = 0; i < t.length; i++){
+        const c = t.charCodeAt(i)
+        const count = map.get(c)
+        if(count === undefined){
+            return false
+        }
+        map.set(c, count - 1)
+    }
+    return Array.from(map.values()).every(s => s === 0)
+};
+```
