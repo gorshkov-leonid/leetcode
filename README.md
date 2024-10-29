@@ -38,7 +38,7 @@ leetcode.com
     * https://leetcode.com/problems/two-sum/ :white_check_mark: 
     * https://leetcode.com/problems/4sum/ :white_check_mark: 
     * https://leetcode.com/problems/group-anagrams/ :white_check_mark: 
-    * https://leetcode.com/problems/valid-anagram/
+    * https://leetcode.com/problems/valid-anagram/ :white_check_mark: 
     * https://leetcode.com/problems/find-all-anagrams-in-a-string/
 
 * queue/stack:
