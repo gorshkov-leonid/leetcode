@@ -42,7 +42,7 @@ leetcode.com
     * https://leetcode.com/problems/find-all-anagrams-in-a-string/ :white_check_mark: 
 
 * queue/stack:
-    * https://leetcode.com/problems/valid-parentheses/
+    * https://leetcode.com/problems/valid-parentheses/ :white_check_mark: 
 
 * dfs/bfs:
     * https://leetcode.com/problems/number-of-islands/
