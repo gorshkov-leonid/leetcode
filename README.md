@@ -45,7 +45,7 @@ leetcode.com
     * https://leetcode.com/problems/valid-parentheses/ :white_check_mark: 
 
 * dfs/bfs:
-    * https://leetcode.com/problems/number-of-islands/
+    * https://leetcode.com/problems/number-of-islands/ :white_check_mark: 
     * https://leetcode.com/problems/remove-invalid-parentheses/
  
 * sort:
