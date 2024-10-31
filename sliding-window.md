@@ -34,3 +34,13 @@ var medianSlidingWindow = function(nums, k) {
 };
 
 ```
+
+https://leetcode.com/problems/sliding-window-maximum/description/
+```js
+// todo hard
+```
+
+https://leetcode.com/problems/longest-repeating-character-replacement/description/
+```js
+// todo medium
+```
