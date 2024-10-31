@@ -57,7 +57,7 @@ leetcode.com
  
 * two pointers:
     * https://leetcode.com/problems/container-with-most-water/ :white_check_mark: 
-    * https://leetcode.com/problems/partition-labels/
+    * https://leetcode.com/problems/partition-labels/ :white_check_mark: 
  
 * sliding window:
     * https://leetcode.com/problems/sliding-window-median/
