@@ -60,8 +60,8 @@ leetcode.com
     * https://leetcode.com/problems/partition-labels/ :white_check_mark: 
  
 * sliding window:
-    * https://leetcode.com/problems/sliding-window-median/
-    * https://leetcode.com/problems/sliding-window-maximum/
+    * https://leetcode.com/problems/sliding-window-median/ :x:
+    * https://leetcode.com/problems/sliding-window-maximum/ :x:
     * https://leetcode.com/problems/longest-repeating-character-replacement/
  
 * tree:
