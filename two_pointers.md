@@ -22,3 +22,29 @@ var maxArea = function(height) {
       return max
 }
 ```
+
+https://leetcode.com/problems/partition-labels/description/
+```js
+var partitionLabels = function(s) {
+    let map = {}
+    for(let i = 0; i < s.length; i++){
+         map[s.charAt(i)] = i
+    }
+    let l = 0
+    let r = 0
+    const res = [] 
+    let max = 0
+    while(r < s.length) {
+        const c = s.charAt(r)
+        max = Math.max(map[c], max)
+        if(max === r){
+            r++
+            res.push(r - l)
+            l = r
+        } else {
+            r++
+        }
+    }
+    return res
+};
+```
