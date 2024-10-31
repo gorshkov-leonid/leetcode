@@ -42,5 +42,26 @@ https://leetcode.com/problems/sliding-window-maximum/description/
 
 https://leetcode.com/problems/longest-repeating-character-replacement/description/
 ```js
-// todo medium
+var characterReplacement = function(s, k) {
+    let ans = 0;
+    let n = s.length;
+    for (let c = 65; c <= 90; c++) { // ASCII values for 'A' to 'Z'
+        let i = 0, j = 0, replaced = 0;
+        while (j < n) {
+            if (s.charCodeAt(j) === c) {
+                j++;
+            } else if (replaced < k) {
+                j++;
+                replaced++;
+            } else if (s.charCodeAt(i) === c) {
+                i++;
+            } else {
+                i++;
+                replaced--;
+            }
+            ans = Math.max(ans, j - i);
+        }
+    }
+    return ans;
+};
 ```
