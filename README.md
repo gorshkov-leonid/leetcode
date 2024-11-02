@@ -62,7 +62,7 @@ leetcode.com
 * sliding window:
     * https://leetcode.com/problems/sliding-window-median/ :x:
     * https://leetcode.com/problems/sliding-window-maximum/ :x:
-    * https://leetcode.com/problems/longest-repeating-character-replacement/
+    * https://leetcode.com/problems/longest-repeating-character-replacement/ :white_check_mark: 
  
 * tree:
     * https://leetcode.com/problems/same-tree/
