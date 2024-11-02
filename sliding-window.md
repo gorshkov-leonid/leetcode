@@ -65,3 +65,36 @@ var characterReplacement = function(s, k) {
     return ans;
 };
 ```
+
+```js
+var characterReplacement = function(s, k) {
+        const n = s.length
+        const A = "A".charCodeAt(0)
+        const Z = "Z".charCodeAt(0)
+        let count = 0
+        for(let c = A; c <= Z; c++){
+            i = 0;
+            j = 0;
+            let t = 0
+            debugger;
+            while(j < n){
+               if(s.charCodeAt(j) == c){
+                   j++
+               } else {
+                   if(t < k ){
+                      t++;
+                      j++;
+                   } else {
+                      while(s.charCodeAt(i) == c && i < n){
+                        i++
+                      } 
+                      i++
+                      j++
+                   }
+               }
+               count = Math.max(count, j - i)
+            }
+        }
+        return count
+};
+```
