@@ -6,7 +6,6 @@ var merge = function(intervals) {
     const res = []
     let prevInt = intervals[0]
     let i = 1
-    debugger;
     while(i < n) {
         const int = intervals[i]
         if(prevInt[1] >= int[0]){
