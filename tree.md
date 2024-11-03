@@ -13,14 +13,14 @@ var isSameTree = function(p, q) {
 
 https://leetcode.com/problems/symmetric-tree/
 ```js
-const check = (root1, root2) => {
-    if (root1 == root2) {
+const check = (a, b) => {
+    if (a == b) {
         return true;
     }
-    if (root1 == null || root2 == null || root1.val != root2.val) {
+    if (a == null || b == null || a.val != b.val) {
         return false;
     }
-    return check(root1.left, root2.right) && check(root1.right, root2.left);
+    return check(a.left, b.right) && check(a.right, b.left);
 };
 
 function isSymmetric(root) {
