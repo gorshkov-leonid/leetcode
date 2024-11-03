@@ -15,6 +15,22 @@ var hasCycle = function(head) {
 };
 ```
 
+```js
+// v2
+var hasCycle = function(head) {
+    let s = head
+    let f = head
+    while(s && f){
+        s = s.next
+        f = f.next?.next
+        if(s === f){
+            return true
+        }
+    }
+    return false
+};
+```
+
 https://leetcode.com/problems/reverse-linked-list/description/
 ```js
 var reverseList = function(head) {
