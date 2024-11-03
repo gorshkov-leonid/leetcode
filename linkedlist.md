@@ -1,4 +1,5 @@
 https://leetcode.com/problems/merge-k-sorted-lists/description/
+more effecive with usage bunary heap
 ```js
 var mergeKLists = function (lists) {
     const dummy = new ListNode()
