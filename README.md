@@ -20,18 +20,18 @@ leetcode.com
 
 это все про алгоритмы
 * [linked lists](./linkedlist.md):
-    * 23 https://leetcode.com/problems/merge-k-sorted-lists/ :white_check_mark: 
+    * 023 https://leetcode.com/problems/merge-k-sorted-lists/ :white_check_mark: 
     * 141 https://leetcode.com/problems/linked-list-cycle/ :white_check_mark: 
-    * 2 https://leetcode.com/problems/add-two-numbers/ :white_check_mark: 
+    * 002 https://leetcode.com/problems/add-two-numbers/ :white_check_mark: 
     * 206 https://leetcode.com/problems/reverse-linked-list/ :white_check_mark: 
  
 * [binary search](./binarysearch.MD):
     * 704 https://leetcode.com/problems/binary-search/ :white_check_mark:
     * 374 https://leetcode.com/problems/guess-number-higher-or-lower/ :white_check_mark:
-    * 74 https://leetcode.com/problems/search-a-2d-matrix/ :white_check_mark:
-    * 33 https://leetcode.com/problems/search-in-rotated-sorted-array/ :white_check_mark:
+    * 074 https://leetcode.com/problems/search-a-2d-matrix/ :white_check_mark:
+    * 033 https://leetcode.com/problems/search-in-rotated-sorted-array/ :white_check_mark:
     * 153 https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ :white_check_mark:
-    * 81 https://leetcode.com/problems/search-in-rotated-sorted-array-ii/ :white_check_mark::white_check_mark:
+    * 081 https://leetcode.com/problems/search-in-rotated-sorted-array-ii/ :white_check_mark::white_check_mark:
  
 * [hash table](./hashmap.md):
     * 136 https://leetcode.com/problems/single-number/ - :white_check_mark: решить за O(1) по памяти
@@ -42,21 +42,21 @@ leetcode.com
     * 438 https://leetcode.com/problems/find-all-anagrams-in-a-string/ :white_check_mark: 
 
 * [queue/stack](./queue_and_stack.md):
-    * 20 https://leetcode.com/problems/valid-parentheses/ :white_check_mark: 
+    * 020 https://leetcode.com/problems/valid-parentheses/ :white_check_mark: 
 
 * [dfs/bfs](./dfs_bfs.md):
     * 200 https://leetcode.com/problems/number-of-islands/ :white_check_mark: 
     * 301 https://leetcode.com/problems/remove-invalid-parentheses/ :grey_question:
  
 * [sort](./sort.md):
-    * 56 https://leetcode.com/problems/merge-intervals/ :white_check_mark: 
+    * 056 https://leetcode.com/problems/merge-intervals/ :white_check_mark: 
  
 * [heap/hash](./heap_hash.md):
     * 692 https://leetcode.com/problems/top-k-frequent-words/ :white_check_mark: :grey_question:
     * 347 https://leetcode.com/problems/top-k-frequent-elements/ :white_check_mark: :grey_question:
  
 * [two pointers](./two_pointers.md):
-    * 11 https://leetcode.com/problems/container-with-most-water/ :white_check_mark: 
+    * 011 https://leetcode.com/problems/container-with-most-water/ :white_check_mark: 
     * 763 https://leetcode.com/problems/partition-labels/ :white_check_mark: 
  
 * [sliding window](./sliding-window.md):
