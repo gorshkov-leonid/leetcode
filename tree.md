@@ -1,13 +1,13 @@
 https://leetcode.com/problems/same-tree/
 ```js
-var isSameTree = function(p, q) {
-    if(p === q){
+var isSameTree = function(a, b) {
+    if(a === b){
         return true
     }
-    if(!p || !q || p.val !== q.val){
+    if(!a || !b || a.val !== b.val){
         return false
     }
-    return isSameTree(p.left, q.left) && isSameTree(p.right, q.right) 
+    return isSameTree(a.left, b.left) && isSameTree(a.right, b.right) 
 };
 ```
 
