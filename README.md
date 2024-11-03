@@ -20,59 +20,59 @@ leetcode.com
 
 это все про алгоритмы
 * linked lists:
-    * https://leetcode.com/problems/merge-k-sorted-lists/ :white_check_mark: 
-    * https://leetcode.com/problems/linked-list-cycle/ :white_check_mark: 
-    * https://leetcode.com/problems/add-two-numbers/ :white_check_mark: 
-    * https://leetcode.com/problems/reverse-linked-list/ :white_check_mark: 
+    * 23 https://leetcode.com/problems/merge-k-sorted-lists/ :white_check_mark: 
+    * 141 https://leetcode.com/problems/linked-list-cycle/ :white_check_mark: 
+    * 2 https://leetcode.com/problems/add-two-numbers/ :white_check_mark: 
+    * 206 https://leetcode.com/problems/reverse-linked-list/ :white_check_mark: 
  
 * binary search:
-    * https://leetcode.com/problems/binary-search/ :white_check_mark:
-    * https://leetcode.com/problems/guess-number-higher-or-lower/ :white_check_mark:
-    * https://leetcode.com/problems/search-a-2d-matrix/ :white_check_mark:
-    * https://leetcode.com/problems/search-in-rotated-sorted-array/ :white_check_mark:
-    * https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ :white_check_mark:
-    * https://leetcode.com/problems/search-in-rotated-sorted-array-ii/ :white_check_mark::white_check_mark:
+    * 704 https://leetcode.com/problems/binary-search/ :white_check_mark:
+    * 374 https://leetcode.com/problems/guess-number-higher-or-lower/ :white_check_mark:
+    * 74 https://leetcode.com/problems/search-a-2d-matrix/ :white_check_mark:
+    * 33 https://leetcode.com/problems/search-in-rotated-sorted-array/ :white_check_mark:
+    * 153 https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ :white_check_mark:
+    * 81 https://leetcode.com/problems/search-in-rotated-sorted-array-ii/ :white_check_mark::white_check_mark:
  
 * hash table:
-    * https://leetcode.com/problems/single-number/ - :white_check_mark: решить за O(1) по памяти
-    * https://leetcode.com/problems/two-sum/ :white_check_mark: 
-    * https://leetcode.com/problems/4sum/ :white_check_mark: 
-    * https://leetcode.com/problems/group-anagrams/ :white_check_mark: 
-    * https://leetcode.com/problems/valid-anagram/ :white_check_mark: 
-    * https://leetcode.com/problems/find-all-anagrams-in-a-string/ :white_check_mark: 
+    * 136 https://leetcode.com/problems/single-number/ - :white_check_mark: решить за O(1) по памяти
+    * 1 https://leetcode.com/problems/two-sum/ :white_check_mark: 
+    * 18 https://leetcode.com/problems/4sum/ :white_check_mark: 
+    * 49 https://leetcode.com/problems/group-anagrams/ :white_check_mark: 
+    * 242 https://leetcode.com/problems/valid-anagram/ :white_check_mark: 
+    * 438 https://leetcode.com/problems/find-all-anagrams-in-a-string/ :white_check_mark: 
 
 * queue/stack:
-    * https://leetcode.com/problems/valid-parentheses/ :white_check_mark: 
+    * 20 https://leetcode.com/problems/valid-parentheses/ :white_check_mark: 
 
 * dfs/bfs:
-    * https://leetcode.com/problems/number-of-islands/ :white_check_mark: 
-    * https://leetcode.com/problems/remove-invalid-parentheses/ :grey_question:
+    * 200 https://leetcode.com/problems/number-of-islands/ :white_check_mark: 
+    * 301 https://leetcode.com/problems/remove-invalid-parentheses/ :grey_question:
  
 * sort:
-    * https://leetcode.com/problems/merge-intervals/ :white_check_mark: 
+    * 56 https://leetcode.com/problems/merge-intervals/ :white_check_mark: 
  
 * heap/hash:
-    * https://leetcode.com/problems/top-k-frequent-words/ :white_check_mark: :grey_question:
-    * https://leetcode.com/problems/top-k-frequent-elements/ :white_check_mark: :grey_question:
+    * 692 https://leetcode.com/problems/top-k-frequent-words/ :white_check_mark: :grey_question:
+    * 347 https://leetcode.com/problems/top-k-frequent-elements/ :white_check_mark: :grey_question:
  
 * two pointers:
-    * https://leetcode.com/problems/container-with-most-water/ :white_check_mark: 
-    * https://leetcode.com/problems/partition-labels/ :white_check_mark: 
+    * 11 https://leetcode.com/problems/container-with-most-water/ :white_check_mark: 
+    * 763 https://leetcode.com/problems/partition-labels/ :white_check_mark: 
  
 * sliding window:
-    * https://leetcode.com/problems/sliding-window-median/ :x:
-    * https://leetcode.com/problems/sliding-window-maximum/ :x:
-    * https://leetcode.com/problems/longest-repeating-character-replacement/ :white_check_mark: 
+    * 480 https://leetcode.com/problems/sliding-window-median/ :x:
+    * 239 https://leetcode.com/problems/sliding-window-maximum/ :x:
+    * 424 https://leetcode.com/problems/longest-repeating-character-replacement/ :white_check_mark: 
  
 * tree:
-    * https://leetcode.com/problems/same-tree/
-    * https://leetcode.com/problems/symmetric-tree/
-    * https://leetcode.com/problems/balanced-binary-tree/
-    * https://leetcode.com/problems/path-sum-ii/
+    * 100 https://leetcode.com/problems/same-tree/
+    * 101 https://leetcode.com/problems/symmetric-tree/
+    * 110 https://leetcode.com/problems/balanced-binary-tree/
+    * 113 https://leetcode.com/problems/path-sum-ii/
  
 * greedy problems:
-    * https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-    * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
-    * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
-    * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+    * 121 https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+    * 122 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+    * 714 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+    * 309 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 
