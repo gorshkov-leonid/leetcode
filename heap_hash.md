@@ -18,3 +18,14 @@ var topKFrequent = function(words, k) {
   return res
 };
 ```
+
+https://leetcode.com/problems/top-k-frequent-elements/description/
+```js
+var topKFrequent = function(nums, k) {
+    const map = new Map()
+    for(let num of nums){
+        map.set(num, (map.get(num) ?? 0) + 1)
+    }
+    return Array.from(map.entries()).toSorted((a, b) => b[1] - a[1]).map((a) => a[0]).slice(0, k)
+};
+```
