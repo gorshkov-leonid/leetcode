@@ -1,3 +1,25 @@
+https://leetcode.com/problems/merge-k-sorted-lists/description/
+```js
+var mergeKLists = function (lists) {
+    const dummy = new ListNode()
+    let curr = dummy
+
+      let sortedLists = lists.filter(s=>!!s)
+      while (sortedLists.length) {
+        sortedLists = sortedLists.sort((a, b) => a.val - b.val)
+        const min = sortedLists[0].val
+        for (let i = 0; i < sortedLists.length && (i ==0 || sortedLists[i].val == min); i++) {
+            curr.next = new ListNode(sortedLists[i].val)
+            curr = curr.next
+            sortedLists[i] = sortedLists[i].next
+        }
+        sortedLists = sortedLists.filter(s=>!!s)
+
+    }
+    return dummy.next
+};
+```
+
 https://leetcode.com/problems/linked-list-cycle/description/
 ```js
 // v1
