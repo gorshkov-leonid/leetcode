@@ -53,7 +53,7 @@ leetcode.com
  
 * heap/hash:
     * https://leetcode.com/problems/top-k-frequent-words/ :white_check_mark: :grey_question:
-    * https://leetcode.com/problems/top-k-frequent-elements/
+    * https://leetcode.com/problems/top-k-frequent-elements/ :white_check_mark: :grey_question:
  
 * two pointers:
     * https://leetcode.com/problems/container-with-most-water/ :white_check_mark: 
