@@ -64,13 +64,13 @@ leetcode.com
     * 239 https://leetcode.com/problems/sliding-window-maximum/ :x:
     * 424 https://leetcode.com/problems/longest-repeating-character-replacement/ :white_check_mark: 
  
-* tree:
+* [tree](./tree.md):
     * 100 https://leetcode.com/problems/same-tree/
     * 101 https://leetcode.com/problems/symmetric-tree/
     * 110 https://leetcode.com/problems/balanced-binary-tree/
     * 113 https://leetcode.com/problems/path-sum-ii/
  
-* greedy problems:
+* [greedy problems](./greedy_problems.md):
     * 121 https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
     * 122 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
     * 714 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
