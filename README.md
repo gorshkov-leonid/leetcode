@@ -19,7 +19,7 @@ leetcode.com
 6. Стоит попрактиковаться в алгоритмах и порешать задачки на leetcode/hackerrank/GeeksforGeeks.Задачки могут повториться на собеседовании
 
 это все про алгоритмы
-* linked lists:
+* [linked lists](./linkedlist.md):
     * 23 https://leetcode.com/problems/merge-k-sorted-lists/ :white_check_mark: 
     * 141 https://leetcode.com/problems/linked-list-cycle/ :white_check_mark: 
     * 2 https://leetcode.com/problems/add-two-numbers/ :white_check_mark: 
@@ -33,7 +33,7 @@ leetcode.com
     * 153 https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ :white_check_mark:
     * 81 https://leetcode.com/problems/search-in-rotated-sorted-array-ii/ :white_check_mark::white_check_mark:
  
-* hash table:
+* [hash table](./hashmap.md):
     * 136 https://leetcode.com/problems/single-number/ - :white_check_mark: решить за O(1) по памяти
     * 1 https://leetcode.com/problems/two-sum/ :white_check_mark: 
     * 18 https://leetcode.com/problems/4sum/ :white_check_mark: 
@@ -41,25 +41,25 @@ leetcode.com
     * 242 https://leetcode.com/problems/valid-anagram/ :white_check_mark: 
     * 438 https://leetcode.com/problems/find-all-anagrams-in-a-string/ :white_check_mark: 
 
-* queue/stack:
+* [queue/stack](./queue_and_stack.md):
     * 20 https://leetcode.com/problems/valid-parentheses/ :white_check_mark: 
 
-* dfs/bfs:
+* [dfs/bfs](./dfs_bfs.md):
     * 200 https://leetcode.com/problems/number-of-islands/ :white_check_mark: 
     * 301 https://leetcode.com/problems/remove-invalid-parentheses/ :grey_question:
  
-* sort:
+* [sort](./sort.md):
     * 56 https://leetcode.com/problems/merge-intervals/ :white_check_mark: 
  
-* heap/hash:
+* [heap/hash](./heap_hash.md):
     * 692 https://leetcode.com/problems/top-k-frequent-words/ :white_check_mark: :grey_question:
     * 347 https://leetcode.com/problems/top-k-frequent-elements/ :white_check_mark: :grey_question:
  
-* two pointers:
+* [two pointers](./two_pointers.md):
     * 11 https://leetcode.com/problems/container-with-most-water/ :white_check_mark: 
     * 763 https://leetcode.com/problems/partition-labels/ :white_check_mark: 
  
-* sliding window:
+* [sliding window](./sliding-window.md):
     * 480 https://leetcode.com/problems/sliding-window-median/ :x:
     * 239 https://leetcode.com/problems/sliding-window-maximum/ :x:
     * 424 https://leetcode.com/problems/longest-repeating-character-replacement/ :white_check_mark: 
