@@ -65,7 +65,7 @@ leetcode.com
     * 424 https://leetcode.com/problems/longest-repeating-character-replacement/ :white_check_mark: 
  
 * [tree](./tree.md):
-    * 100 https://leetcode.com/problems/same-tree/
+    * 100 https://leetcode.com/problems/same-tree/ :white_check_mark: 
     * 101 https://leetcode.com/problems/symmetric-tree/
     * 110 https://leetcode.com/problems/balanced-binary-tree/
     * 113 https://leetcode.com/problems/path-sum-ii/
