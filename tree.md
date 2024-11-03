@@ -17,7 +17,7 @@ const check = (a, b) => {
     if (a == b) {
         return true;
     }
-    if (a == null || b == null || a.val != b.val) {
+    if (!a || !b || a.val != b.val) {
         return false;
     }
     return check(a.left, b.right) && check(a.right, b.left);
@@ -26,5 +26,4 @@ const check = (a, b) => {
 function isSymmetric(root) {
     return check(root.left, root.right);
 }
-
 ```
