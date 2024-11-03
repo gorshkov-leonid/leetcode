@@ -25,7 +25,7 @@ leetcode.com
     * 2 https://leetcode.com/problems/add-two-numbers/ :white_check_mark: 
     * 206 https://leetcode.com/problems/reverse-linked-list/ :white_check_mark: 
  
-* binary search:
+* [binary search](./binarysearch.MD):
     * 704 https://leetcode.com/problems/binary-search/ :white_check_mark:
     * 374 https://leetcode.com/problems/guess-number-higher-or-lower/ :white_check_mark:
     * 74 https://leetcode.com/problems/search-a-2d-matrix/ :white_check_mark:
