@@ -1,5 +1,22 @@
 https://leetcode.com/problems/reverse-linked-list/description/
 ```js
+// v1
+var hasCycle = function(head) {
+    const set = new Set()
+    while(head){
+        if(set.has(head)){
+            return true
+        }
+        set.add(head) 
+        head = head.next
+
+    }
+    return false
+};
+```
+
+https://leetcode.com/problems/reverse-linked-list/description/
+```js
 var reverseList = function(head) {
     if(!head){
         return head
