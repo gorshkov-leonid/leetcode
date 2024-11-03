@@ -20,7 +20,7 @@ leetcode.com
 
 это все про алгоритмы
 * linked lists:
-    * https://leetcode.com/problems/merge-k-sorted-lists/
+    * https://leetcode.com/problems/merge-k-sorted-lists/ :white_check_mark: 
     * https://leetcode.com/problems/linked-list-cycle/ :white_check_mark: 
     * https://leetcode.com/problems/add-two-numbers/ :white_check_mark: 
     * https://leetcode.com/problems/reverse-linked-list/ :white_check_mark: 
