@@ -52,7 +52,7 @@ leetcode.com
     * https://leetcode.com/problems/merge-intervals/ :white_check_mark: 
  
 * heap/hash:
-    * https://leetcode.com/problems/top-k-frequent-words/
+    * https://leetcode.com/problems/top-k-frequent-words/ :white_check_mark: :grey_question:
     * https://leetcode.com/problems/top-k-frequent-elements/
  
 * two pointers:
