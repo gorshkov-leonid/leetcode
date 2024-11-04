@@ -63,15 +63,13 @@ function traverse(root, targetSum, stack, res) {
     if(!root){
         return
     }
-    if(!root.left && !root.right){
-       if(targetSum == root.val){
-            res.push([...stack, root].map(s => s.val))
-       }
-       return
-    }
     stack.push(root)
-    traverse(root.left, targetSum - root.val, stack, res)
-    traverse(root.right, targetSum - root.val, stack, res)
+    targetSum = targetSum - root.val
+    if(!root.left && !root.right && targetSum == 0){
+       res.push(stack.map(s => s.val))
+    }
+    traverse(root.left, targetSum, stack, res)
+    traverse(root.right, targetSum, stack, res)
     stack.pop()
 };
 ```
