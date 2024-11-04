@@ -50,3 +50,28 @@ var isBalanced = function(root) {
     return height(root) >= 0
 };
 ```
+
+https://leetcode.com/problems/path-sum-ii/description/
+```js
+var pathSum = function(root, targetSum) {
+    const res = []
+    traverse(root, targetSum, [], res)
+    return res
+};
+
+function traverse(root, targetSum, stack, res) {
+    if(!root){
+        return
+    }
+    if(!root.left && !root.right){
+       if(targetSum == root.val){
+            res.push([...stack, root].map(s => s.val))
+       }
+       return
+    }
+    stack.push(root)
+    traverse(root.left, targetSum - root.val, stack, res)
+    traverse(root.right, targetSum - root.val, stack, res)
+    stack.pop()
+};
+```
