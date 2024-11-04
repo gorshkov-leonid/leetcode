@@ -53,6 +53,7 @@ var isBalanced = function(root) {
 
 https://leetcode.com/problems/path-sum-ii/description/
 ```js
+// using recursion
 var pathSum = function(root, targetSum) {
     const res = []
     traverse(root, targetSum, [], res)
@@ -71,5 +72,25 @@ function traverse(root, targetSum, stack, res) {
     traverse(root.left, targetSum, stack, res)
     traverse(root.right, targetSum, stack, res)
     stack.pop()
+};
+```
+
+```js
+// attempt to avoid recursion
+var pathSum = function (root, targetSum) {
+    const res = []
+    const queue = [[root, targetSum, []]]
+    while (queue.length) {
+        const [r, s, stack] = queue.pop()
+        if (!r) {
+            continue
+        }
+        if (!r.left && !r.right && s == r.val) {
+            res.push([...stack, r].map(s => s.val))
+        }
+        queue.push([r.right, s - r.val, [...stack, r]])
+        queue.push([r.left, s - r.val, [...stack, r]])
+    }
+    return res
 };
 ```
