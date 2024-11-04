@@ -134,6 +134,7 @@ var numIslands = function (grid) {
     return k
 };
 ```
+Note: to make non recursive version of dfs replace `const [i, j] = queue.shift()` with `const [i, j] = queue.pop()`
 
 Note: code with steps can be written as plain.
 ```js
