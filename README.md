@@ -67,7 +67,7 @@ leetcode.com
 * [tree](./tree.md):
     * 100 https://leetcode.com/problems/same-tree/ :white_check_mark: 
     * 101 https://leetcode.com/problems/symmetric-tree/ :white_check_mark: 
-    * 110 https://leetcode.com/problems/balanced-binary-tree/
+    * 110 https://leetcode.com/problems/balanced-binary-tree/ :white_check_mark: 
     * 113 https://leetcode.com/problems/path-sum-ii/
  
 * [greedy problems](./greedy_problems.md):
