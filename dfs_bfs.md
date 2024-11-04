@@ -95,7 +95,6 @@ function bfs(I, J, n, m, grid, visited) {
     const queue = [[I, J]]
     while (queue.length) {
         const [i, j] = queue.shift()
-        console.log("check: ", i, j)
         const steps = [[1, 0], [-1, 0], [0, -1], [0, 1]]
         for (let [dI, dJ] of steps) {
             let newI = i + dI
