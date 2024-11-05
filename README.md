@@ -71,7 +71,7 @@ leetcode.com
     * 113 https://leetcode.com/problems/path-sum-ii/ :white_check_mark: 
  
 * [greedy problems](./greedy_problems.md):
-    * 121 https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+    * 121 https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ :white_check_mark: 
     * 122 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
     * 714 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
     * 309 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
