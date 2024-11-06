@@ -69,10 +69,10 @@ var maxProfit = function(prices, fee) {
 var maxProfit = function(prices, fee) {
     const n = prices.length
     let sellOrWaitProfit = 0
-    let holdOrBuy = -prices[0]
+    let holdOrBuyProfit = -prices[0]
     for(let i = 0; i < n; i++){
-        sellOrWaitProfit = Math.max(sellOrWaitProfit,  prices[i] + holdOrBuy - fee)
-        holdOrBuy = Math.max(holdOrBuy, sellOrWaitProfit - prices[i])
+        sellOrWaitProfit = Math.max(sellOrWaitProfit,  prices[i] + holdOrBuyProfit - fee)
+        holdOrBuyProfit = Math.max(holdOrBuyProfit, sellOrWaitProfit - prices[i])
     }
     return sellOrWaitProfit
 };
