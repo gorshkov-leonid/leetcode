@@ -197,6 +197,37 @@ var search = function(nums, target) {
     }
     return nums[a] == target
 };
+
+// or 
+
+var search = function(nums, target) {
+    let a = 0
+    let b = nums.length - 1
+    while(a <= b) {
+        let c = (a + b) >>> 1 
+        if(target == nums[c]){
+            return true
+        }
+        if(nums[c] > nums[a]){
+            if(nums[a] <= target && target < nums[c]) {
+               b = c - 1
+            } else {
+               a = c + 1
+
+            }
+        } else if (nums[c] < nums[a]){
+            if(nums[c] < target && target <= nums[b]) {
+               a = c + 1
+            } else {
+               b = c - 1
+            }
+        }  else {
+            a++
+        }
+    }
+    return nums[b] == target
+};
+
 ```
 
 https://leetcode.com/problems/find-the-duplicate-number/
