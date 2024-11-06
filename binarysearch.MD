@@ -240,9 +240,9 @@ https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-
 ```js
 var searchRange = function (nums, target) {
 
+    let res = [-1, -1]
     let a = 0;
     let b = nums.length - 1
-    let res = [-1, -1]
     while (a <= b) {
         let m = (a + b) >>> 1
         if (target > nums[m]) {
