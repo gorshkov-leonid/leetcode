@@ -54,12 +54,26 @@ or (https://algo.monster/liteproblems/714)
 ```js
 var maxProfit = function(prices, fee) {
     const n = prices.length
-    let profit = 0
-    let spends = -prices[0]
+    let sellOrWaitProfit = 0
+    let holdOrBuy = -prices[0]
     for(let i = 0; i < n; i++){
-        profit = Math.max(profit,  prices[i] + spends - fee)
-        spends = Math.max(spends, profit - prices[i])
+        profit = Math.max(sellOrWaitProfit,  prices[i] + holdOrBuy - fee)
+        spends = Math.max(holdOrBuy, sellOrWaitProfit - holdOrBuy[i])
     }
-    return profit
+    return sellOrWaitProfit
+};
+```
+
+```js
+// with naming
+var maxProfit = function(prices, fee) {
+    const n = prices.length
+    let sellOrWaitProfit = 0
+    let holdOrBuy = -prices[0]
+    for(let i = 0; i < n; i++){
+        sellOrWaitProfit = Math.max(sellOrWaitProfit,  prices[i] + holdOrBuy - fee)
+        holdOrBuy = Math.max(holdOrBuy, sellOrWaitProfit - prices[i])
+    }
+    return sellOrWaitProfit
 };
 ```
