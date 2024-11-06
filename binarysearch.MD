@@ -241,7 +241,6 @@ https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-
 var searchRange = function (nums, target) {
     let left = -1
     let right = -1
-    let res = [-1, -1]
     let a = 0;
     let b = nums.length - 1
     while (a <= b) {
