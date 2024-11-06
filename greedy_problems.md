@@ -34,6 +34,7 @@ var maxProfit = function(prices) {
 ```
 
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+
 https://www.youtube.com/watch?v=Ew_R-ZfhPEc
 ```js
 var maxProfit = function(prices, fee) {
