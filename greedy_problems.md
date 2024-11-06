@@ -37,7 +37,6 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-f
 
 https://www.youtube.com/watch?v=Ew_R-ZfhPEc
 
-https://algo.monster/liteproblems/714
 ```js
 var maxProfit = function(prices, fee) {
     const n = prices.length
@@ -46,6 +45,20 @@ var maxProfit = function(prices, fee) {
     for(let i = 0; i < n; i++){
         profit = Math.max(profit,  prices[i] - spends - fee)
         spends = Math.min(spends, prices[i] - profit)
+    }
+    return profit
+};
+```
+or (https://algo.monster/liteproblems/714)
+
+```js
+var maxProfit = function(prices, fee) {
+    const n = prices.length
+    let profit = 0
+    let spends = -prices[0]
+    for(let i = 0; i < n; i++){
+        profit = Math.max(profit,  prices[i] + spends - fee)
+        spends = Math.max(spends, profit - prices[i])
     }
     return profit
 };
