@@ -150,7 +150,6 @@ var findAnagrams = function(s, p) {
 
     for(let i = p.length - 1; i < s.length; i++){
         alph1[index(s, i)] += 1
-        console.log(`!!! "${alph1.toString()}" "${alph2.toString()}"`)
         if(compareArrs(alph1, alph2)){ // alph1.toString() === alph2.toString()
             res.push(i - (p.length - 1))
         }
