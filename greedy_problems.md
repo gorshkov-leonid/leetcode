@@ -77,3 +77,35 @@ var maxProfit = function(prices, fee) {
     return sellOrWaitProfit
 };
 ```
+
+https://www.youtube.com/watch?v=I7j0F7AHpb8
+```js
+function dfs(i, buy, prices, map) {
+    const n = prices.length
+    if (i >= n) {
+        return 0
+    }
+    const cached = map.get(`${i}_${buy}`)
+    if (Number.isFinite(cached)) {
+        return cached
+    }
+    const cooldownProfit = dfs(i + 1, buy, prices, map)
+    if (buy) {
+        const buyingProfit = dfs(i + 1, !buy, prices, map) - prices[i]
+        const profit = Math.max(cooldownProfit, buyingProfit)
+        map.set(`${i}_${buy}`, profit)
+        return profit
+    } else {
+        const sellingProfit = dfs(i + 2, !buy, prices, map) + prices[i]
+        const profit = Math.max(cooldownProfit, sellingProfit)
+        map.set(`${i}_${buy}`, profit)
+        return profit
+    }
+}
+
+
+var maxProfit = function (prices) {
+    const map = new Map()
+    return dfs(0, true, prices, map)
+};
+```
