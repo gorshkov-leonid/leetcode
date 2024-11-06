@@ -73,6 +73,6 @@ leetcode.com
 * [greedy problems](./greedy_problems.md):
     * 121 https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ :white_check_mark: 
     * 122 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/ :white_check_mark: 
-    * 714 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+    * 714 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/ :white_check_mark:
     * 309 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 
