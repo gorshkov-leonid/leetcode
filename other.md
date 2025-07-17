@@ -85,3 +85,29 @@ function longestPalindrome(s) {
    return s.slice(start, end + 1);
 }
 ```
+...optimized
+
+```js
+function longestPalindrome(s) {
+
+   const n = s.length;
+   const M = Array.from({ length: n }, () => Array(n).fill(false));
+   //const M = new Array(n).fill(null).map((v, i) => new Array(n, i + 1))
+   let maxLength = 1;
+   let start = 0;
+   for(let j = 0; j < n; j++){
+      M[j][j] = true;
+      for(let i = 0; i < j; i++){
+		  const length = j - i + 1;
+		  const res = M[i][j] = ( length === 2 || M[i+1][j-1] ) && ( s.charAt(i) === s.charAt(j) )
+		  if(res && (length > maxLength)){
+			  start = i;
+		      maxLength = length;
+		  }
+      }
+   }
+   return s.substring(start, start + maxLength);
+}
+
+console.log(longestPalindrome("cbbd"));
+```
