@@ -36,7 +36,7 @@ https://www.youtube.com/watch?v=UflHuQj6MVA
 var longestPalindrome = function(s) {
 
    const n = s.length;
-   const M = new Array(n).fill(false).map(v => new Array(n).fill(false));
+   const M = new Array(n).fill(null).map(v => [])
    let maxLength = 1;
    let start = 0;
    let end = 0;
@@ -58,4 +58,6 @@ var longestPalindrome = function(s) {
    }
    return s.slice(start, end + 1);
 }
+
+console.log(longestPalindrome("cbbd"));
 ```
