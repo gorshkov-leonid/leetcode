@@ -34,9 +34,9 @@ leetcode.com
  
 * [hash table](./hashmap.md):
     * 136 https://leetcode.com/problems/single-number/ - :white_check_mark: решить за O(1) по памяти
-    * 1 https://leetcode.com/problems/two-sum/ :white_check_mark: 
-    * 18 https://leetcode.com/problems/4sum/ :white_check_mark: 
-    * 49 https://leetcode.com/problems/group-anagrams/ :white_check_mark: 
+    * 001 https://leetcode.com/problems/two-sum/ :white_check_mark: 
+    * 018 https://leetcode.com/problems/4sum/ :white_check_mark: 
+    * 049 https://leetcode.com/problems/group-anagrams/ :white_check_mark: 
     * 242 https://leetcode.com/problems/valid-anagram/ :white_check_mark: 
     * 438 https://leetcode.com/problems/find-all-anagrams-in-a-string/ :white_check_mark: 
 
