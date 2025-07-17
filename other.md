@@ -1,7 +1,7 @@
 5. Longest Palindromic Substring
 
 
-Stupid
+Stupid n^3
 ```js
 var longestPalindrome = function(s) {
   if(!s.length){
@@ -28,6 +28,10 @@ function isPalindrom(s, a, b) {
   }    
   return true;
 }
+```
 
+DP n^2
+https://www.youtube.com/watch?v=UflHuQj6MVA
+```js
 
 ```
