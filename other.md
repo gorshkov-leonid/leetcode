@@ -2,7 +2,7 @@
 
 
 Stupid
-```
+```js
 var longestPalindrome = function(s) {
   if(!s.length){
     return null;
