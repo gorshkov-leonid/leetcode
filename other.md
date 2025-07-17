@@ -92,7 +92,6 @@ function longestPalindrome(s) {
 
    const n = s.length;
    const M = Array.from({ length: n }, () => Array(n).fill(false));
-   //const M = new Array(n).fill(null).map((v, i) => new Array(n, i + 1))
    let maxLength = 1;
    let start = 0;
    for(let j = 0; j < n; j++){
